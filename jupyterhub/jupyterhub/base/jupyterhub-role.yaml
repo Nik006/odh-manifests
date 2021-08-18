@@ -100,3 +100,15 @@ rules:
   - delete
   - deletecollection
   - watch
+- apiGroups:
+  - ''
+  - objectbucket.io
+  resources:
+  - objectbucketclaims
+  verbs:
+  - get
+  - list
+  - create
+  - update
+  - delete
+  - watch
