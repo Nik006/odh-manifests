@@ -17,6 +17,7 @@ resources:
 - jupyterhub-singleuser-profiles-sizes-configmap.yaml
 - jupyterhub-spark-operator-configmap.yaml
 - jupyterhub-groups-configmap.yaml
+- jupyterhub-clusterrolebinding.yaml
 
 commonLabels:
   opendatahub.io/component: "true"
