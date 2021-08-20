@@ -22,7 +22,7 @@ spec:
         sidecar.istio.io/inject: "true"
     spec:
       containers:
-      - image: jupyterhub-db:96
+      - image: image-registry.openshift-image-registry.svc:5000/test-odh-11/jupyterhub-db:96
         env:
         - name: POSTGRESQL_USER
           value: jupyterhub
